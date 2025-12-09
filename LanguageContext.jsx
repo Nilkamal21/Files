@@ -5,7 +5,7 @@ const LanguageContext = createContext();
 
 const TRANSLATIONS = {
   en: {
-    // EXISTING TRANSLATIONS (kept)
+    // LOGIN PAGE
     appName: "Agro Suvidha",
     stepText: "Step 1 of 2",
     greeting: "Namaste",
@@ -15,7 +15,7 @@ const TRANSLATIONS = {
     helpText: "You can change this later in settings",
     footerText: "Smart Farming. Smarter Future.",
 
-    // MANDI PRICE TRANSLATIONS (kept)
+    // MANDI PRICE
     smartCropAdvisory: "Smart Crop Advisory - Live Data",
     realTimePrices: "Real-time mandi prices and profit analysis",
     marketPriceCalc: "Market Price Calculator",
@@ -77,7 +77,7 @@ const TRANSLATIONS = {
     profitMargin: "Profit Margin",
     excellent: "Excellent",
 
-    // ✅ NEW SOIL ANALYSER TRANSLATIONS
+    // SOIL ANALYSER
     soilAnalyzer: "Soil Analyzer",
     aiSoilDiagnostics: "AI-Powered Soil Diagnostics",
     uploadSoilImage: "Upload Soil Image",
@@ -110,9 +110,28 @@ const TRANSLATIONS = {
     improveYieldTips: "Tips to Improve Yield",
     voiceNotSupported: "Voice recognition not supported in this browser.",
     analysisError: "Something went wrong while analyzing the image.",
+
+    // DISEASE SOLUTION
+    diseaseSolution: "Disease Solution",
+    aiPlantDiagnosis: "AI-Powered Plant Diagnosis",
+    uploadCropImage: "Upload Crop Image",
+    analyzingDisease: "Analyzing Disease…",
+    analyzingImage: "Analyzing Image",
+    pleaseWait: "Please wait…",
+    listenResults: "Listen to Results",
+    clickPlayAudio: "Click to play audio summary",
+    pestDetected: "Pest Detected",
+    unknownDisease: "Unknown disease",
+    immediateAttention: "Requires immediate attention",
+    expertAdvice: "Expert Advice",
+    recommendedPesticides: "Recommended Pesticides",
+    recommendedFertilizers: "Recommended Fertilizers",
+    applicationDosage: "Application Dosage",
+    estimatedProfitability: "Estimated profitability",
+    confidence: "Confidence"
   },
   hi: {
-    // EXISTING TRANSLATIONS (kept)
+    // LOGIN PAGE
     appName: "एग्रो सुविधा",
     stepText: "कदम 1 में से 2",
     greeting: "नमस्ते",
@@ -122,7 +141,7 @@ const TRANSLATIONS = {
     helpText: "आप इसे बाद में सेटिंग्स में बदल सकते हैं",
     footerText: "स्मार्ट खेती। स्मार्ट भविष्य।",
 
-    // MANDI PRICE TRANSLATIONS (kept)
+    // MANDI PRICE
     smartCropAdvisory: "स्मार्ट फसल सलाह - लाइव डेटा",
     realTimePrices: "रीयल-टाइम मंडी दरें और लाभ विश्लेषण",
     marketPriceCalc: "मंडी मूल्य कैलकुलेटर",
@@ -170,7 +189,7 @@ const TRANSLATIONS = {
     mandiName: "मंडी का नाम",
     priceQuintal: "प्रति क्विंटल मूल्य",
     westBengal: "पश्चिम बंगाल",
-    mandiLocationsMap: "मंडी स्थान मानचित्र",
+        mandiLocationsMap: "मंडी स्थान मानचित्र",
     yourLocation: "आपका स्थान",
     bestMandi: "सर्वश्रेष्ठ मंडी",
     otherMandis: "अन्य मंडियाँ",
@@ -184,7 +203,7 @@ const TRANSLATIONS = {
     profitMargin: "लाभ मार्जिन",
     excellent: "उत्कृष्ट",
 
-    // ✅ NEW SOIL ANALYSER HINDI TRANSLATIONS
+    // SOIL ANALYSER
     soilAnalyzer: "मिट्टी विश्लेषक",
     aiSoilDiagnostics: "AI-संचालित मिट्टी निदान",
     uploadSoilImage: "मिट्टी की तस्वीर अपलोड करें",
@@ -217,9 +236,28 @@ const TRANSLATIONS = {
     improveYieldTips: "उपज बढ़ाने के सुझाव",
     voiceNotSupported: "इस ब्राउज़र में वॉइस मान्यता समर्थित नहीं है।",
     analysisError: "मिट्टी विश्लेषण करते समय कुछ गलत हो गया।",
+
+    // DISEASE SOLUTION
+    diseaseSolution: "रोग समाधान",
+    aiPlantDiagnosis: "AI-संचालित पौधा निदान",
+    uploadCropImage: "फसल की तस्वीर अपलोड करें",
+    analyzingDisease: "रोग का विश्लेषण हो रहा है…",
+    analyzingImage: "तस्वीर का विश्लेषण हो रहा है",
+    pleaseWait: "कृपया प्रतीक्षा करें…",
+    listenResults: "परिणाम सुनें",
+    clickPlayAudio: "ऑडियो सारांश चलाने के लिए क्लिक करें",
+    pestDetected: "कीट का पता चला",
+    unknownDisease: "अज्ञात रोग",
+    immediateAttention: "तत्काल ध्यान की आवश्यकता",
+    expertAdvice: "विशेषज्ञ सलाह",
+    recommendedPesticides: "अनुशंसित कीटनाशक",
+    recommendedFertilizers: "अनुशंसित उर्वरक",
+    applicationDosage: "उपयोग की मात्रा",
+    estimatedProfitability: "अनुमानित लाभप्रदता",
+    confidence: "विश्वास"
   },
   bn: {
-    // EXISTING + MANDI PRICE (kept)
+    // LOGIN PAGE
     appName: "এগ্রো সুবিধা",
     stepText: "পদক্ষেপ ১ এর মধ্যে ২",
     greeting: "নমস্কার",
@@ -228,6 +266,8 @@ const TRANSLATIONS = {
     continueBtn: "চালিয়ে যান",
     helpText: "আপনি পরে সেটিংসে এটি পরিবর্তন করতে পারবেন",
     footerText: "স্মার্ট চাষাবাদ। স্মার্ট ভবিষ্যৎ।",
+
+    // MANDI PRICE
     smartCropAdvisory: "স্মার্ট ফসল উপদেশ - লাইভ ডেটা",
     realTimePrices: "রিয়েল-টাইম মণ্ডি দর এবং লাভ বিশ্লেষণ",
     marketPriceCalc: "মণ্ডি মূল্য ক্যালকুলেটর",
@@ -277,7 +317,7 @@ const TRANSLATIONS = {
     westBengal: "পশ্চিমবঙ্গ",
     mandiLocationsMap: "মণ্ডি অবস্থান মানচিত্র",
     yourLocation: "আপনার অবস্থান",
-    bestMandi: "সেরা মণ্ডি",
+        bestMandi: "সেরা মণ্ডি",
     otherMandis: "অন্যান্য মণ্ডি",
     you: "আপনি",
     mandiDetails: "মণ্ডি বিবরণ",
@@ -289,7 +329,7 @@ const TRANSLATIONS = {
     profitMargin: "লাভ মার্জিন",
     excellent: "উত্কৃষ্ট",
 
-    // ✅ NEW SOIL ANALYSER BENGALI TRANSLATIONS
+    // SOIL ANALYSER
     soilAnalyzer: "মাটি বিশ্লেষক",
     aiSoilDiagnostics: "AI-চালিত মাটি নির্ণয়",
     uploadSoilImage: "মাটির ছবি আপলোড করুন",
@@ -322,9 +362,28 @@ const TRANSLATIONS = {
     improveYieldTips: "ফলন বাড়ানোর টিপস",
     voiceNotSupported: "এই ব্রাউজারে ভয়েস রেকগনিশন সমর্থিত নয়।",
     analysisError: "মাটি বিশ্লেষণের সময় কিছু সমস্যা হয়েছে।",
+
+    // DISEASE SOLUTION
+    diseaseSolution: "রোগ সমাধান",
+    aiPlantDiagnosis: "AI-চালিত গাছের নির্ণয়",
+    uploadCropImage: "ফসলের ছবি আপলোড করুন",
+    analyzingDisease: "রোগ বিশ্লেষণ চলছে…",
+    analyzingImage: "ছবি বিশ্লেষণ চলছে",
+    pleaseWait: "অপেক্ষা করুন…",
+    listenResults: "ফলাফল শুনুন",
+    clickPlayAudio: "অডিও সারাংশ চালানোর জন্য ক্লিক করুন",
+    pestDetected: "কীটপতঙ্গ শনাক্ত",
+    unknownDisease: "অজানা রোগ",
+    immediateAttention: "তাৎক্ষণিক দৃষ্টি আকর্ষণ প্রয়োজন",
+    expertAdvice: "বিশেষজ্ঞের পরামর্শ",
+    recommendedPesticides: "প্রস্তাবিত কীটনাশক",
+    recommendedFertilizers: "প্রস্তাবিত সার",
+    applicationDosage: "প্রয়োগের ডোজ",
+    estimatedProfitability: "আনুমানিক লাভজনকতা",
+    confidence: "বিশ্বাসযোগ্যতা"
   },
   pa: {
-    // EXISTING + MANDI PRICE (kept)
+    // LOGIN PAGE
     appName: "ਐਗਰੋ ਸੁਵਿਧਾ",
     stepText: "ਕਦਮ 1 ਵਿਚੋਂ 2",
     greeting: "ਸਤ ਸ੍ਰੀ ਅਕਾਲ",
@@ -333,6 +392,8 @@ const TRANSLATIONS = {
     continueBtn: "ਜਾਰੀ ਰੱਖੋ",
     helpText: "ਤੁਸੀਂ ਇਸਨੂੰ ਬਾਅਦ ਵਿੱਚ ਸੈਟਿੰਗਜ਼ ਵਿੱਚ ਬਦਲ ਸਕਦੇ ਹੋ",
     footerText: "ਸਮਾਰਟ ਖੇਤੀਬਾੜੀ। ਸਮਾਰਟ ਭਵਿੱਖ।",
+
+    // MANDI PRICE
     smartCropAdvisory: "ਸਮਾਰਟ ਫਸਲ ਸਲਾਹ - ਲਾਈਵ ਡੇਟਾ",
     realTimePrices: "ਰੀਅਲ-ਟਾਈਮ ਮੰਡੀ ਦਰਾਂ ਅਤੇ ਲਾਭ ਵਿਸ਼ਲੇਸ਼ਣ",
     marketPriceCalc: "ਮੰਡੀ ਕੀਮਤ ਕੈਲਕੂਲੇਟਰ",
@@ -394,7 +455,7 @@ const TRANSLATIONS = {
     profitMargin: "ਲਾਭ ਮਾਰਜਿਨ",
     excellent: "ਉੱਤਮ",
 
-       // ✅ NEW SOIL ANALYSER PUNJABI TRANSLATIONS (CONTINUED)
+    // SOIL ANALYSER
     soilAnalyzer: "ਮਿੱਟੀ ਵਿਸ਼ਲੇਸ਼ਕ",
     aiSoilDiagnostics: "AI-ਚਲਾਇਆ ਮਿੱਟੀ ਨਿਦਾਨ",
     uploadSoilImage: "ਮਿੱਟੀ ਦੀ ਤਸਵੀਰ ਅਪਲੋਡ ਕਰੋ",
@@ -426,7 +487,26 @@ const TRANSLATIONS = {
     howToUse: "ਕਿਵੇਂ ਵਰਤੋਂ",
     improveYieldTips: "ਉਪਜ ਵਧਾਉਣ ਦੇ ਸੁਝਾਅ",
     voiceNotSupported: "ਇਸ ਬ੍ਰਾਊਜ਼ਰ ਵਿੱਚ ਆਵਾਜ਼ ਮਾਨਤਾ ਸਮਰਥਿਤ ਨਹੀਂ ਹੈ।",
-    analysisError: "ਮਿੱਟੀ ਵਿਸ਼ਲੇਸ਼ਣ ਦੌਰਾਨ ਕੁਝ ਗਲਤ ਹੋ ਗਿਆ।"
+    analysisError: "ਮਿੱਟੀ ਵਿਸ਼ਲੇਸ਼ਣ ਦੌਰਾਨ ਕੁਝ ਗਲਤ ਹੋ ਗਿਆ।",
+
+    // DISEASE SOLUTION
+    diseaseSolution: "ਰੋਗ ਹੱਲ",
+    aiPlantDiagnosis: "AI-ਚਲਾਇਆ ਰੋਗ ਨਿਦਾਨ",
+    uploadCropImage: "ਫਸਲ ਦੀ ਤਸਵੀਰ ਅਪਲੋਡ ਕਰੋ",
+    analyzingDisease: "ਰੋਗ ਦਾ ਵਿਸ਼ਲੇਸ਼ਣ ਹੋ ਰਿਹਾ ਹੈ…",
+    analyzingImage: "ਤਸਵੀਰ ਦਾ ਵਿਸ਼ਲੇਸ਼ਣ ਹੋ ਰਿਹਾ ਹੈ",
+    pleaseWait: "ਕਿਰਪਾ ਕਰਕੇ ਰੁਕੋ…",
+    listenResults: "ਫਲਤਾਂ ਸੁਣੋ",
+    clickPlayAudio: "ਆਡੀਓ ਸਾਰਾਂਸ਼ ਚਲਾਉਣ ਲਈ ਕਲਿੱਕ ਕਰੋ",
+    pestDetected: "ਕੀੜਾ ਪਤਵਾ ਲੱਗ ਗਿਆ",
+    unknownDisease: "ਅਗਿਆਤ ਬਿਮਾਰੀ",
+    immediateAttention: "ਤੁਰੰਤ ਧਿਆਨ ਦੀ ਲੋੜ",
+    expertAdvice: "ਵਿਸ਼ੇਸ਼ਜਨਕ ਸਲਾਹ",
+    recommendedPesticides: "ਸਿਫ਼ਾਰਸ਼ੀ ਕੀਟਨਾਸ਼ਕ",
+    recommendedFertilizers: "ਸਿਫ਼ਾਰਸ਼ੀ ਖਾਦ",
+    applicationDosage: "ਉਪਯੋਗ ਦੀ ਮਾਤਰਾ",
+    estimatedProfitability: "अਨੁਮਾਨਿਤ ਲਾਭਕਾਰੀਤਾ",
+    confidence: "ਵਿਸ਼ਵਾਸ"
   }
 };
 
@@ -462,3 +542,5 @@ export function LanguageProvider({ children }) {
 export function useLanguage() {
   return useContext(LanguageContext);
 }
+
+
